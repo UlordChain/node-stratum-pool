@@ -1,0 +1,41 @@
+{
+    "name": "stratum-pool",
+    "version": "0.1.0",
+    "description": "High performance Stratum poolserver in Node.js",
+    "keywords": [
+        "ulord",
+        "stratum",
+        "mining",
+        "pool",
+        "server",
+        "poolserver",
+        "bitcoin",
+        "litecoin",
+        "cryptonight",
+        "scrypt"
+    ],
+    "homepage": "https://github.com/UlordChain/node-stratum-pool",
+    "bugs": {
+        "url": "https://github.com/UlordChain/node-stratum-pool/issues"
+    },
+    "license": "GPL-2.0",
+    "author": "Jackchen",
+    "contributors": [
+        "vekexasia",
+        "TheSeven"
+    ],
+    "main": "lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/UlordChain/node-stratum-pool.git"
+    },
+    "dependencies": {
+        "multi-hashing": "git://github.com/UlordChain/node-multi-hashing.git",
+        "bignum": "*",
+        "base58-native": "*",
+        "async": "*"
+    },
+    "engines": {
+        "node": ">=0.10"
+    }
+}
