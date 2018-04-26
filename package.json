@@ -30,7 +30,7 @@
         "url": "https://github.com/UlordChain/node-stratum-pool.git"
     },
     "dependencies": {
-        "multi-hashing": "https://github.com/UlordChain/node-stratum-pool.git",
+        "multi-hashing": "git://github.com/UlordChain/node-stratum-pool.git",
         "bignum": "*",
         "base58-native": "*",
         "async": "*"
