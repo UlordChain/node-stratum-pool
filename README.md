@@ -46,6 +46,7 @@ Features
 * ✓ __Keccak__ (Maxcoin [MAX], HelixCoin, CryptoMeth, Galleon, 365coin, Slothcoin, BitcointalkCoin)
 * ✓ __Skein__ (Skeincoin [SKC])
 * ✓ __Groestl__ (Groestlcoin [GRS])
+* ✓ __CryptoHello__ (Ulord [UT])
 
 May be working (needs additional testing):
 * ? *Blake* (Blakecoin [BLC])
