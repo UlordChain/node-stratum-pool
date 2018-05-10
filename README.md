@@ -41,7 +41,6 @@ Features
 * ✓ __Scrypt-Jane__ (YaCoin, CopperBars, Pennies, Tickets, etc..)
 * ✓ __Scrypt-N__ (Vertcoin [VTC])
 * ✓ __Quark__ (Quarkcoin [QRK])
-* ✓ __X11__ (Darkcoin [DRK], Hirocoin, Limecoin)
 * ✓ __X13__ (MaruCoin, BoostCoin)
 * ✓ __NIST5__ (Talkcoin)
 * ✓ __Keccak__ (Maxcoin [MAX], HelixCoin, CryptoMeth, Galleon, 365coin, Slothcoin, BitcointalkCoin)
@@ -81,7 +80,7 @@ npm update
 
 Create the configuration for your coin:
 
-Possible options for `algorithm`: *sha256, scrypt, scrypt-jane, scrypt-n, quark, x11, keccak, blake,
+Possible options for `algorithm`: *sha256, scrypt, scrypt-jane, scrypt-n, quark, keccak, blake,
 skein, groestl, fugue, shavite3, hefty1, qubit, or sha1*.
 
 ```javascript
@@ -355,7 +354,6 @@ Credits
 * [Slush0](//github.com/slush0/stratum-mining) - stratum protocol, documentation and original python code
 * [viperaus](//github.com/viperaus/stratum-mining) - scrypt adaptions to python code
 * [ahmedbodi](//github.com/ahmedbodi/stratum-mining) - more algo adaptions to python code
-* [steveshit](//github.com/steveshit) - ported X11 hashing algo from python to node module
 
 
 Donations
