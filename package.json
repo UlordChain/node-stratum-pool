@@ -11,7 +11,7 @@
         "poolserver",
         "bitcoin",
         "litecoin",
-        "cryptonight",
+        "cryptohello",
         "scrypt"
     ],
     "homepage": "https://github.com/UlordChain/node-stratum-pool",
