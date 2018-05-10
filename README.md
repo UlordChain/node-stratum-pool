@@ -88,7 +88,7 @@ skein, groestl, fugue, shavite3, hefty1, qubit, or sha1*.
 var myCoin = {
     "name": "Ulord",
     "symbol": "ULD",
-    "algorithm": "cryptonight",
+    "algorithm": "cryptohello",
     "nValue": 1024, //optional - defaults to 1024
     "rValue": 1, //optional - defaults to 1
     "txMessages": false, //optional - defaults to false,
