@@ -36,6 +36,7 @@ Features
 * When started with a coin deamon that hasn't finished syncing to the network it shows the blockchain download progress and initializes once synced
 
 #### Hashing algorithms supported:
+* ✓ __CryptoHello__ (Ulord [UT])
 * ✓ __SHA256__ (Bitcoin, Freicoin, Peercoin/PPCoin, Terracoin, etc..)
 * ✓ __Scrypt__ (Litecoin, Dogecoin, Feathercoin, etc..)
 * ✓ __Scrypt-Jane__ (YaCoin, CopperBars, Pennies, Tickets, etc..)
@@ -46,7 +47,6 @@ Features
 * ✓ __Keccak__ (Maxcoin [MAX], HelixCoin, CryptoMeth, Galleon, 365coin, Slothcoin, BitcointalkCoin)
 * ✓ __Skein__ (Skeincoin [SKC])
 * ✓ __Groestl__ (Groestlcoin [GRS])
-* ✓ __CryptoHello__ (Ulord [UT])
 
 May be working (needs additional testing):
 * ? *Blake* (Blakecoin [BLC])
@@ -344,31 +344,6 @@ Start pool
 ```javascript
 pool.start();
 ```
-
-
-Credits
--------
-* [vekexasia](//github.com/vekexasia) - co-developer & great tester
-* [LucasJones](//github.com/LucasJones) - got p2p block notify working and implemented additional hashing algos
-* [TheSeven](//github.com/TheSeven) - answering an absurd amount of my questions, found the block 1-16 problem, provided example code for peer node functionality
-* [pronooob](https://dogehouse.org) - knowledgeable & helpful
-* [Slush0](//github.com/slush0/stratum-mining) - stratum protocol, documentation and original python code
-* [viperaus](//github.com/viperaus/stratum-mining) - scrypt adaptions to python code
-* [ahmedbodi](//github.com/ahmedbodi/stratum-mining) - more algo adaptions to python code
-
-
-Donations
----------
-To support development of this project feel free to donate :)
-
-* BTC: `1KRotMnQpxu3sePQnsVLRy3EraRFYfJQFR`
-* LTC: `LKfavSDJmwiFdcgaP1bbu46hhyiWw5oFhE`
-* VTC: `VgW4uFTZcimMSvcnE4cwS3bjJ6P8bcTykN`
-* MAX: `mWexUXRCX5PWBmfh34p11wzS5WX2VWvTRT`
-* QRK: `QehPDAhzVQWPwDPQvmn7iT3PoFUGT7o8bC`
-* DRK: `XcQmhp8ANR7okWAuArcNFZ2bHSB81jpapQ`
-* DOGE: `DBGGVtwAAit1NPZpRm5Nz9VUFErcvVvHYW`
-* Cryptsy Trade Key: `254ca13444be14937b36c44ba29160bd8f02ff76`
 
 License
 -------
