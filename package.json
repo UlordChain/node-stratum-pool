@@ -33,7 +33,9 @@
         "multi-hashing": "git+https://github.com/UlordChain/node-multi-hashing.git",
         "bignum": "*",
         "base58-native": "*",
-        "async": "*"
+        "async": "*",
+        "redis": "*",
+        "node-json-minify":"*"
     },
     "engines": {
         "node": ">=0.10"
